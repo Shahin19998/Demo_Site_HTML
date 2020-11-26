@@ -1,0 +1,102 @@
+*{
+        margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(img/landing-10.jpg);
+    height: 570px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 12px;
+   
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.menu {
+    width: 45%;
+    float: left;
+}
+.logo{
+    width: 25%;
+    overflow: hidden;
+    float: left;
+}
+.btn{
+    width: 30%;
+    overflow: hidden;
+}
+.menu nav ul li{
+    display: inline;
+    margin: 20px;
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color: rgba(236, 240, 241,0.7);
+}
+.menu nav ul li a:hover{
+    color: #fff;
+}
+.logo img{
+    width: 100px;
+}
+.btn button{
+    padding: 9px 25px;
+    color: #fff;
+    border-radius: 12px;
+    margin-right: 15px;
+    border: 1px solid #fff;
+}
+.btn1{
+    background-color: transparent;
+}
+.btn2{
+      background-color:rgba(52, 152, 219,1.0);
+        padding: 9px 25px;
+    color: #fff;
+    border-radius: 12px;
+    border: 1px solid #fff;
+}
+.headline{
+    text-align: center;
+    margin-top: 110px;
+}
+.headline h1{
+    color: #fff;
+    
+}
+.headline img{
+    width: 700px;
+}
+.brand{
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
+  
+}
+.brand img{
+   width: 350px;
+    height: 237px;
+    border-radius:20px;
+}
+.brand h4{
+    margin-top: 32px;
+    margin-left: 25px;
+}
+.brand p{
+    margin: 14px 0px;
+    color:#666666;
+    margin-left: 25px;
+}
+.brand a{
+    margin-left: 25px;
+}
+
+
